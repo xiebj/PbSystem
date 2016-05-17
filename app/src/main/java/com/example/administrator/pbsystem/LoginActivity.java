@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
@@ -21,6 +22,7 @@ public class LoginActivity extends Activity implements View.OnClickListener{
     private String user;
     private String password;
     private loginHandler handler;
+    private CheckBox remem;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +30,7 @@ public class LoginActivity extends Activity implements View.OnClickListener{
         progressBar = (ProgressBar) findViewById(R.id.progress);
         username = (EditText) findViewById(R.id.username);
         passwordtext = (EditText) findViewById(R.id.password);
+        remem = (CheckBox) findViewById(R.id.remember_pass);
         (findViewById(R.id.login_button)).setOnClickListener(this);
     }
 

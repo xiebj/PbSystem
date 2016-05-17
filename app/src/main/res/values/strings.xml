@@ -8,6 +8,9 @@
     <string name="title_activity_main">排班系统</string>
     <string name="username_error">Username cannot be empty</string>
     <string name="password_error">Password cannot be empty</string>
+    <string name="save">保存</string>
+    <string name="submit">提交</string>
+    <string name="hint">已保存</string>
     <string name="mon">周一</string>
     <string name="tue">周二</string>
     <string name="wen">周三</string>

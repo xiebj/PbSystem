@@ -37,7 +37,7 @@
                 />
             <TextView
                 android:layout_height="wrap_content"
-                android:text="Remember password"
+                android:text="Remember me"
                 />
         </TableRow>
     </TableLayout>
