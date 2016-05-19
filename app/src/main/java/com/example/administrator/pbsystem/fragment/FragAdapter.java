@@ -1,4 +1,4 @@
-package com.example.administrator.pbsystem;
+package com.example.administrator.pbsystem.fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

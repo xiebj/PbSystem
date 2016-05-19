@@ -2,58 +2,58 @@
     android:layout_width="250dp"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:gravity="center"
-    android:orientation="vertical"
     android:layout_marginTop="16dp"
-    >
+    android:gravity="center"
+    android:orientation="vertical">
 
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:hint="@string/user_name"
         android:drawableLeft="@drawable/ic_action_person"
         android:drawablePadding="8dp"
-        />
+        android:gravity="center_vertical"
+        android:hint="@string/user_name" />
+
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:hint="@string/password"
-        android:inputType="textPassword"
         android:drawableLeft="@drawable/ic_action_accounts"
         android:drawablePadding="8dp"
-        />
+        android:gravity="center_vertical"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TableRow>
+
             <CheckBox
                 android:id="@+id/remember_pass"
                 android:layout_height="wrap_content"
-                android:padding="14dp"
-                />
+                android:padding="14dp" />
+
             <TextView
                 android:layout_height="wrap_content"
-                android:text="Remember me"
-                />
+                android:text="Remember me" />
         </TableRow>
     </TableLayout>
+
     <Button
         android:id="@+id/login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/log_in"
         android:drawableRight="@drawable/ic_action_accept"
-        />
+        android:text="@string/log_in" />
+
     <ProgressBar
         android:id="@+id/progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:visibility="gone"
-        />
+        android:visibility="gone" />
 
 </LinearLayout>

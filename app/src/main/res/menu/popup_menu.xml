@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrator.pbsystem.activity.MainActivity">
+    <item android:id="@+id/sq" android:title="上午前台班"
+        android:orderInCategory="100" android:showAsAction="never"
+        />
+    <item android:id="@+id/zd" android:title="早班电话岗"
+        android:orderInCategory="100" android:showAsAction="never"
+        />
+    <item android:id="@+id/sd" android:title="上午电话岗"
+        android:orderInCategory="100" android:showAsAction="never"
+        />
+    <item android:id="@+id/zq" android:title="中午前台班"
+        android:orderInCategory="100" android:showAsAction="never"
+        />
+    <item android:id="@+id/wd" android:title="中午电话岗"
+        android:orderInCategory="100" android:showAsAction="never"
+        />
+    <item android:id="@+id/xd" android:title="下午电话岗"
+        android:orderInCategory="100" android:showAsAction="never"
+        />
+    <item android:id="@+id/xq" android:title="下午前台班"
+        android:orderInCategory="100" android:showAsAction="never"
+        />
+</menu>

@@ -7,5 +7,6 @@
     <color name="color_white">#FFFFFF</color>
     <color name="button">#82858b</color>
     <color name="background">#F0FFFF</color>
+    <color name="selectedbg">#AFEEEE</color>
     <color name="buttonbg">#C0C0C0</color>
 </resources>

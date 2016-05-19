@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/frame_height"
         android:layout_weight="1">
+
         <android.support.v4.view.ViewPager
             android:id="@+id/viewpager"
             android:layout_width="wrap_content"
@@ -17,26 +18,29 @@
             android:flipInterval="30"
             android:persistentDrawingCache="animation" />
     </FrameLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        >
+        android:layout_height="60dp">
 
         <RelativeLayout
             android:id="@+id/submit_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/line1"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000000" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:orientation="vertical">
+
                 <TextView
                     android:id="@+id/submit_text"
                     android:layout_width="wrap_content"
@@ -52,11 +56,13 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/line2"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000000" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,7 +74,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="请假签到"
+                    android:text="我要请假"
                     android:textColor="#82858b" />
             </LinearLayout>
         </RelativeLayout>
@@ -78,11 +84,13 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/line3"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000000" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -94,7 +102,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="查看工时"
+                    android:text="我来代班"
                     android:textColor="#82858b" />
             </LinearLayout>
         </RelativeLayout>
@@ -104,11 +112,13 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/line4"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000000" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
