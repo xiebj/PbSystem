@@ -32,14 +32,14 @@ public class WelcomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_welcome);
-        myHandler.sendEmptyMessageDelayed(0, 2000);//2秒跳转
+        myHandler.sendEmptyMessageDelayed(0, 1500);//2秒跳转
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_welcome, menu);
-        return true;
+        return false;
     }
 
     @Override

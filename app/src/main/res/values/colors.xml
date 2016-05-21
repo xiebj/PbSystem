@@ -9,4 +9,5 @@
     <color name="background">#F0FFFF</color>
     <color name="selectedbg">#AFEEEE</color>
     <color name="buttonbg">#C0C0C0</color>
+    <color name="pressed">#F0FFF0</color>
 </resources>

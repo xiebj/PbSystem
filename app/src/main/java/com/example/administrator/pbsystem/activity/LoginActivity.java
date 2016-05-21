@@ -114,6 +114,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         progressBar.setVisibility(View.VISIBLE);
         if (onSuccess(user, password)) {
             progressBar.setVisibility(View.INVISIBLE);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(new Intent(this, MainActivity.class));
             finish();
         } else {
@@ -125,7 +126,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
     public boolean onSuccess(String user, String password) {
         //传送至服务器对比，此时先忽略，日后完善
 
-        if (user.equals("xiebj") && password.equals("123")) {
+        if ((user.equals("xiebj") && password.equals("123")) || (user.equals("mingrong") && password.equals("520"))) {
             return true;
         } else {
             return false;

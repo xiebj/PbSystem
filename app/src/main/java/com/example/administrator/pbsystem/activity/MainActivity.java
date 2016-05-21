@@ -20,9 +20,6 @@ import com.example.administrator.pbsystem.fragment.PersoncenterFragment;
 import com.example.administrator.pbsystem.R;
 import com.example.administrator.pbsystem.fragment.SeeFragment;
 import com.example.administrator.pbsystem.fragment.SubmitFragment;
-import com.example.administrator.pbsystem.ui.transform.CubeOutTransformer;
-import com.example.administrator.pbsystem.ui.transform.FlipHorizontalTransformer;
-import com.example.administrator.pbsystem.ui.transform.TabletTransformer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -101,7 +98,7 @@ public class MainActivity extends FragmentActivity {
         vp.setAdapter(fa);
         vp.setOnPageChangeListener(new TabOnPageChangeListener());
         //设置动画效果
-        vp.setPageTransformer(false, new CubeOutTransformer());
+        //vp.setPageTransformer(false, new CubeOutTransformer());
     }
 
     public void initViews() {
